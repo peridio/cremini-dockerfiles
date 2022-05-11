@@ -1,6 +1,6 @@
-FROM alpine:3.12.1
+FROM alpine:3.15.3
 
-ARG AWS_CLI_VERSION=1.21.3
+ARG AWS_CLI_VERSION=1.22.81
 
 ENV BASH_ENV=/etc/profile
 
