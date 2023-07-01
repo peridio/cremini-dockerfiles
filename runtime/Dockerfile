@@ -1,5 +1,5 @@
 # Release Container
-FROM alpine:3.16.0 as release
+FROM alpine:3.18.2 as release
 
 ENV MIX_ENV=prod
 ENV REPLACE_OS_VARS true
